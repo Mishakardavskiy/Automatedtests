@@ -1,0 +1,13 @@
+{
+    "name": "mikhail/automated-tests",
+    "autoload": {
+        "psr-4": {
+            "Mikhail\\AutomatedTests\\": "src/"
+        },
+        "files": [
+            "src/StringUtils.php"
+        ]
+    },
+    "minimum-stability": "dev",
+    "require": {}
+}
