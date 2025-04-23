@@ -11,6 +11,10 @@ class ComposerStaticInitf04e1a7520012d13043d4245b1f561d7
     );
 
     public static $prefixLengthsPsr4 = array (
+        'W' => 
+        array (
+            'Webmozart\\Assert\\' => 17,
+        ),
         'M' => 
         array (
             'Mikhail\\AutomatedTests\\' => 23,
@@ -18,6 +22,10 @@ class ComposerStaticInitf04e1a7520012d13043d4245b1f561d7
     );
 
     public static $prefixDirsPsr4 = array (
+        'Webmozart\\Assert\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/webmozart/assert/src',
+        ),
         'Mikhail\\AutomatedTests\\' => 
         array (
             0 => __DIR__ . '/../..' . '/src',
